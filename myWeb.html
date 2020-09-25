@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <title>Resume_website_Agne</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kufam:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kufam:wght@600&family=Syne:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link href="https://fontawesome.com/v4.7.0/icons/" rel="stylesheet">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="split image">
+        <div>
+            <p class="p1">Agne</p>
+        </div>
+        <div class="icons hoverBorder">
+            <a href="https://www.linkedin.com/in/agne-girgzdyte-paslauskiene-27aa351a1/" target="_blank"
+                class="fa fa-linkedin cursor"></a>
+            <a href="https://github.com/girgzdyte" target="_blank" class="fa fa-github cursor"></a>
+            <a href="https://www.facebook.com/agne.broniaus" target="_blank" class="fa fa-facebook cursor"></a>
+            <a href="https://www.instagram.com/girgzdyte/" target="_blank" class="fa fa-instagram cursor"></a>
+        </div>
+    </div>
+
+    <div class="split right">
+
+        <div class="toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <h1>WELCOME</h1>
+        <h2>Hello! I'm Agne Girgzdyte</h2>
+        <h3>30 years / Vilnius</h3>
+        <p class="p2" style="line-height: 1.6"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel
+            tortor facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse sit amet laoreet
+            neque. Fusce sagittis suscipit sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel
+            tortor facilisis, volutpat nulla placerat, tincidunt mi.
+        </p>
+
+        <hr>
+
+        <div class="services-list">
+            <div class="services-item">
+                <i class="fa fa-television" aria-hidden="true"></i>
+                <h4>frontend</h4>
+                <p>Some text, Some text, Some text, Some text, Some text, Some text, Some text, Some text. </p>
+            </div>
+            <div class="services-item">
+                <i class="fa fa-code" aria-hidden="true"></i>
+                <h4>JAVA</h4>
+                <p>Some text, Some text,Some text,Some text, Some text, Some text, Some text, Some text. </p>
+            </div>
+            <div class="services-item">
+                <i class="fa fa-picture-o" aria-hidden="true"></i>
+                <h4>UX design</h4>
+                <p>Some text, Some text, Some text, Some text, Some text, Some text, Some text, Some text. </p>
+            </div>
+            <div class="services-item">
+                <i class="fa fa-user" aria-hidden="true"></i>
+                <h4>tech support</h4>
+                <p>Some text, Some text, Some text, Some text, Some text, Some text, Some text, Some text. </p>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="wrapper">
+            <h5>contact me</h5>
+            <div id="error_message"></div>
+
+            <form id="my_form" onsubmit="return validation()">
+                <div class="one_line">
+                    <div class="input_field border">
+                        <input type="text" placeholder="your name" id="name">
+                    </div>
+                    <div class="input_field border">
+                        <input type="text" placeholder="your email" id="email">
+                    </div>
+                </div>
+                <div class="input_field border">
+                    <input type="text" placeholder="subject" id="subject">
+                </div>
+                <div class="input_field border">
+                    <textarea placeholder="message" id="message"></textarea>
+                </div>
+                <div class="button">
+                    <input type="submit">
+                </div>
+            </form>
+        </div>
+
+    </div>
+    <script src=scripts.js></script>
+</body>
+
+</html>
